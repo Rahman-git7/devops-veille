@@ -57,21 +57,15 @@ jobs:
                   continue
           
           # Génère le résumé markdown
-          markdown_content = f"""# DevOps Veille - {datetime.now().strftime('%Y-%m-%d')}
-
-## 📈 Actualités cette semaine
-
-"""
+          markdown_content = "# DevOps Veille - " + datetime.now().strftime('%Y-%m-%d') + "\n\n"
+          markdown_content += "## 📈 Actualités cette semaine\n\n"
           
           for news in news_summary[:10]:  # Max 10 actualités
-              markdown_content += f"""### {news['title']}
-**Source:** {news['source']}  
-**Résumé:** {news['summary']}  
-**Lien:** {news['link']}
-
----
-
-"""
+              markdown_content += "### " + news['title'] + "\n"
+              markdown_content += "**Source:** " + news['source'] + "\n"
+              markdown_content += "**Résumé:** " + news['summary'] + "\n"
+              markdown_content += "**Lien:** " + news['link'] + "\n\n"
+              markdown_content += "---\n\n"
           
           # Sauvegarde dans un fichier
           with open('veille-weekly.md', 'w', encoding='utf-8') as f:

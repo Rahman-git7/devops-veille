@@ -1,0 +1,101 @@
+# .github/workflows/devops-veille.yml
+name: DevOps Veille Automatique
+
+on:
+  schedule:
+    - cron: '0 8 * * 1'  # Chaque lundi à 8h
+  workflow_dispatch:
+
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          
+      - name: Install dependencies
+        run: |
+          pip install requests feedparser
+          
+      - name: Scrape DevOps News
+        run: |
+          python << 'EOF'
+          import feedparser
+          import requests
+          import json
+          from datetime import datetime, timedelta
+          
+          # Sources RSS DevOps
+          feeds = [
+              'https://devopsweekly.com/feed.xml',
+              'https://kubernetes.io/feed.xml',
+              'https://blog.docker.com/feed/',
+              'https://www.hashicorp.com/blog/feed.xml',
+              'https://aws.amazon.com/blogs/devops/feed/'
+          ]
+          
+          news_summary = []
+          cutoff_date = datetime.now() - timedelta(days=7)
+          
+          for feed_url in feeds:
+              try:
+                  feed = feedparser.parse(feed_url)
+                  for entry in feed.entries[:3]:  # Top 3 par source
+                      pub_date = datetime(*entry.published_parsed[:6])
+                      if pub_date > cutoff_date:
+                          news_summary.append({
+                              'title': entry.title,
+                              'link': entry.link,
+                              'source': feed.feed.title,
+                              'summary': entry.summary[:200] + '...' if len(entry.summary) > 200 else entry.summary
+                          })
+              except:
+                  continue
+          
+          # Génère le résumé markdown
+          markdown_content = f"""# DevOps Veille - {datetime.now().strftime('%Y-%m-%d')}
+
+## 📈 Actualités cette semaine
+
+"""
+          
+          for news in news_summary[:10]:  # Max 10 actualités
+              markdown_content += f"""### {news['title']}
+**Source:** {news['source']}
+**Résumé:** {news['summary']}
+**Lien:** {news['link']}
+
+---
+
+"""
+          
+          # Sauvegarde dans un fichier
+          with open('veille-weekly.md', 'w', encoding='utf-8') as f:
+              f.write(markdown_content)
+          
+          # Pas de notification externe pour le moment
+          
+          print("✅ Veille terminée")
+          EOF
+          
+      - name: Commit and Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add veille-weekly.md
+          git commit -m "🔄 Veille automatique $(date +%Y-%m-%d)" || exit 0
+          git push
+
+      - name: Create Issue avec résumé
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Crée une issue avec le résumé
+          gh issue create \
+            --title "📊 Veille DevOps - $(date +%Y-%m-%d)" \
+            --body-file veille-weekly.md \
+            --label "veille"

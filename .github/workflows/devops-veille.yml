@@ -3,7 +3,7 @@ name: DevOps Veille Automatique
 
 on:
   schedule:
-    - cron: '20 15 * * 4'  # Aujourd'hui jeudi à 15h20
+    - cron: '*/5 * * * *'  # Toutes les 5 minutes
   workflow_dispatch:
 
 jobs:

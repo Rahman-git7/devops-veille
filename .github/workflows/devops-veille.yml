@@ -5,8 +5,8 @@ on:
   push:
     branches: [ main ]
   schedule:
-    - cron: '*/10 * * * *'  # Test toutes les 10 min
-    # - cron: '0 8 * * 1'   # Lundi 8h (désactivé temporairement)
+    #- cron: '*/10 * * * *'  # Test toutes les 10 min
+    - cron: '0 8 * * 1'   # Lundi 8h 
   workflow_dispatch:
 
 jobs:

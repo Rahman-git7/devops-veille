@@ -2,6 +2,13 @@
 
 ## 📈 Actualités cette semaine
 
+### GitOps continuous delivery with ArgoCD and EKS using natural language
+**Source:** AWS DevOps & Developer Productivity Blog
+**Résumé:** Introduction ArgoCD is a leading GitOps tool that empowers teams to manage Kubernetes deployments declaratively, using Git as the single source of truth. Its robust feature set, including automated sy...
+**Lien:** https://aws.amazon.com/blogs/devops/gitops-continuous-delivery-with-argocd-and-eks-using-natural-language/
+
+---
+
 ### Announcing the end of support for Node.js 18.x in AWS CDK
 **Source:** AWS DevOps & Developer Productivity Blog
 **Résumé:** On November 30th, 2025, the AWS Cloud Development Kit (CDK) will no longer support Node.js 18.x, which reached end of life on April 30, 2025. This change applies to all AWS CDK components that depend ...

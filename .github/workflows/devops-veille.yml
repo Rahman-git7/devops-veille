@@ -23,7 +23,7 @@ jobs:
           
       - name: Scrape DevOps News
         run: |
-          python << 'EOF'
+          python3 << 'EOF'
           import feedparser
           import requests
           import json
@@ -31,7 +31,7 @@ jobs:
           
           # Sources RSS DevOps
           feeds = [
-              'https://devopsweekly.com/feed.xml',
+              'https://devopsish.com/index.xml',
               'https://kubernetes.io/feed.xml',
               'https://blog.docker.com/feed/',
               'https://www.hashicorp.com/blog/feed.xml',
@@ -65,8 +65,8 @@ jobs:
           
           for news in news_summary[:10]:  # Max 10 actualités
               markdown_content += f"""### {news['title']}
-**Source:** {news['source']}
-**Résumé:** {news['summary']}
+**Source:** {news['source']}  
+**Résumé:** {news['summary']}  
 **Lien:** {news['link']}
 
 ---

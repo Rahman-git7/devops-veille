@@ -1,6 +1,15 @@
-# DevOps Veille - 2025-07-17
+# DevOps Veille - 2025-07-18
 
 ## 📈 Actualités cette semaine
+
+### Post-Quantum Cryptography in Kubernetes
+**Source:** Kubernetes Blog
+**Résumé:** <p>The world of cryptography is on the cusp of a major shift with the advent of
+quantum computing. While powerful quantum computers are still largely
+theoretical for many applications, their potential...
+**Lien:** https://kubernetes.io/blog/2025/07/18/pqc-in-k8s/
+
+---
 
 ### GitOps continuous delivery with ArgoCD and EKS using natural language
 **Source:** AWS DevOps & Developer Productivity Blog

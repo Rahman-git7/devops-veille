@@ -1,4 +1,4 @@
-# DevOps Veille - 2025-07-18
+# DevOps Veille - 2025-07-21
 
 ## 📈 Actualités cette semaine
 

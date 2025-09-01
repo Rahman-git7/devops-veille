@@ -1,25 +1,37 @@
-# DevOps Veille - 2025-08-25
+# DevOps Veille - 2025-09-01
 
 ## 📈 Actualités cette semaine
 
-### Tuning Linux Swap for Kubernetes: A Deep Dive
+### Kubernetes v1.34: Finer-Grained Control Over Container Restarts
 **Source:** Kubernetes Blog
-**Résumé:** <p>The Kubernetes <a href="https://kubernetes.io/docs/concepts/cluster-administration/swap-memory-management/">NodeSwap feature</a>, likely to graduate to <em>stable</em> in the upcoming Kubernetes v1...
-**Lien:** https://kubernetes.io/blog/2025/08/19/tuning-linux-swap-for-kubernetes-a-deep-dive/
+**Résumé:** <p>With the release of Kubernetes 1.34, a new alpha feature is introduced
+that gives you more granular control over container restarts within a Pod. This
+feature, named <strong>Container Restart Polic...
+**Lien:** https://kubernetes.io/blog/2025/08/29/kubernetes-v1-34-per-container-restart-policy/
 
 ---
 
-### Announcing the end-of-support for the AWS SDK for .NET v3
-**Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** We are announcing the end-of-support for the AWS SDK for .NET v3.x starting on March 1, 2026, in accordance with the SDK and Tools maintenance policy.&nbsp; On April 28, 2025, the next major version o...
-**Lien:** https://aws.amazon.com/blogs/devops/announcing-the-end-of-support-for-the-aws-sdk-for-net-v3/
+### Kubernetes v1.34: User preferences (kuberc) are available for testing in kubectl 1.34
+**Source:** Kubernetes Blog
+**Résumé:** <p>Have you ever wished you could enable <a href="https://kep.k8s.io/3895">interactive delete</a>,
+by default, in <code>kubectl</code>? Or maybe, you'd like to have custom aliases defined,
+but not nec...
+**Lien:** https://kubernetes.io/blog/2025/08/28/kubernetes-v1-34-kubectl-kuberc-beta/
 
 ---
 
-### Announcing the end-of-support for AWS Tools for PowerShell v4
+### Kubernetes v1.34: Of Wind & Will (O' WaW)
+**Source:** Kubernetes Blog
+**Résumé:** <p><strong>Editors:</strong> Agustina Barbetta, Alejandro Josue Leon Bellido, Graziano Casto, Melony Qin, Dipesh Rawat</p>
+<p>Similar to previous releases, the release of Kubernetes v1.34 introduces n...
+**Lien:** https://kubernetes.io/blog/2025/08/27/kubernetes-v1-34-release/
+
+---
+
+### Mastering Amazon Q Developer with Rules
 **Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** We are announcing the end-of-support for the AWS Tools for PowerShell v4.x starting on March 1, 2026, in accordance with the SDK and Tools maintenance policy. On June 23, 2025, the next major version ...
-**Lien:** https://aws.amazon.com/blogs/devops/announcing-the-end-of-support-for-aws-tools-for-powershell-v4/
+**Résumé:** When I first started working with Amazon Q Developer, I was impressed by its capabilities, but I quickly found myself in a familiar pattern. Development teams using AI assistants face a common challen...
+**Lien:** https://aws.amazon.com/blogs/devops/mastering-amazon-q-developer-with-rules/
 
 ---
 

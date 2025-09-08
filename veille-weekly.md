@@ -1,37 +1,35 @@
-# DevOps Veille - 2025-09-01
+# DevOps Veille - 2025-09-08
 
 ## 📈 Actualités cette semaine
 
-### Kubernetes v1.34: Finer-Grained Control Over Container Restarts
+### Kubernetes v1.34: Pod Replacement Policy for Jobs Goes GA
 **Source:** Kubernetes Blog
-**Résumé:** <p>With the release of Kubernetes 1.34, a new alpha feature is introduced
-that gives you more granular control over container restarts within a Pod. This
-feature, named <strong>Container Restart Polic...
-**Lien:** https://kubernetes.io/blog/2025/08/29/kubernetes-v1-34-per-container-restart-policy/
+**Résumé:** <p>In Kubernetes v1.34, the <em>Pod replacement policy</em> feature has reached general availability (GA).
+This blog post describes the Pod replacement policy feature and how to use it in your Jobs.</...
+**Lien:** https://kubernetes.io/blog/2025/09/05/kubernetes-v1-34-pod-replacement-policy-for-jobs-goes-ga/
 
 ---
 
-### Kubernetes v1.34: User preferences (kuberc) are available for testing in kubectl 1.34
+### Kubernetes v1.34: PSI Metrics for Kubernetes Graduates to Beta
 **Source:** Kubernetes Blog
-**Résumé:** <p>Have you ever wished you could enable <a href="https://kep.k8s.io/3895">interactive delete</a>,
-by default, in <code>kubectl</code>? Or maybe, you'd like to have custom aliases defined,
-but not nec...
-**Lien:** https://kubernetes.io/blog/2025/08/28/kubernetes-v1-34-kubectl-kuberc-beta/
+**Résumé:** <p>As Kubernetes clusters grow in size and complexity, understanding the health and performance of individual nodes becomes increasingly critical. We are excited to announce that as of Kubernetes v1.3...
+**Lien:** https://kubernetes.io/blog/2025/09/04/kubernetes-v1-34-introducing-psi-metrics-beta/
 
 ---
 
-### Kubernetes v1.34: Of Wind & Will (O' WaW)
+### Kubernetes v1.34: Service Account Token Integration for Image Pulls Graduates to Beta
 **Source:** Kubernetes Blog
-**Résumé:** <p><strong>Editors:</strong> Agustina Barbetta, Alejandro Josue Leon Bellido, Graziano Casto, Melony Qin, Dipesh Rawat</p>
-<p>Similar to previous releases, the release of Kubernetes v1.34 introduces n...
-**Lien:** https://kubernetes.io/blog/2025/08/27/kubernetes-v1-34-release/
+**Résumé:** <p>The Kubernetes community continues to advance security best practices
+by reducing reliance on long-lived credentials.
+Following the successful <a href="https://kubernetes.io/blog/2025/05/07/kuberne...
+**Lien:** https://kubernetes.io/blog/2025/09/03/kubernetes-v1-34-sa-tokens-image-pulls-beta/
 
 ---
 
-### Mastering Amazon Q Developer with Rules
+### Measuring Developer Productivity with Amazon Q Developer and Jellyfish
 **Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** When I first started working with Amazon Q Developer, I was impressed by its capabilities, but I quickly found myself in a familiar pattern. Development teams using AI assistants face a common challen...
-**Lien:** https://aws.amazon.com/blogs/devops/mastering-amazon-q-developer-with-rules/
+**Résumé:** Modern software development teams face increasing pressure to deliver high-quality code faster, while managing growing system complexity. Developers often spend significant time on necessary, but undi...
+**Lien:** https://aws.amazon.com/blogs/devops/measuring-developer-productivity-with-amazon-q-developer-and-jellyfish/
 
 ---
 

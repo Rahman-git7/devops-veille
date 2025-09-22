@@ -1,50 +1,34 @@
-# DevOps Veille - 2025-09-15
+# DevOps Veille - 2025-09-22
 
 ## 📈 Actualités cette semaine
 
-### Kubernetes v1.34: Autoconfiguration for Node Cgroup Driver Goes GA
+### Kubernetes v1.34: Recovery From Volume Expansion Failure (GA)
 **Source:** Kubernetes Blog
-**Résumé:** <p>Historically, configuring the correct cgroup driver has been a pain point for users running new
-Kubernetes clusters. On Linux systems, there are two different cgroup drivers:
-<code>cgroupfs</code> ...
-**Lien:** https://kubernetes.io/blog/2025/09/12/kubernetes-v1-34-cri-cgroup-driver-lookup-now-ga/
+**Résumé:** <p>Have you ever made a typo when expanding your persistent volumes in Kubernetes? Meant to specify <code>2TB</code>
+but specified <code>20TiB</code>? This seemingly innocuous problem was kinda hard t...
+**Lien:** https://kubernetes.io/blog/2025/09/19/kubernetes-v1-34-recover-expansion-failure/
 
 ---
 
-### Kubernetes v1.34: Mutable CSI Node Allocatable Graduates to Beta
+### Kubernetes v1.34: DRA Consumable Capacity
 **Source:** Kubernetes Blog
-**Résumé:** <p>The <a href="https://kep.k8s.io/4876">functionality for CSI drivers to update information about attachable volume count on the nodes</a>, first introduced as Alpha in Kubernetes v1.33, has graduate...
-**Lien:** https://kubernetes.io/blog/2025/09/11/kubernetes-v1-34-mutable-csi-node-allocatable-count/
+**Résumé:** <p>Dynamic Resource Allocation (DRA) is a Kubernetes API for managing scarce resources across Pods and containers.
+It enables flexible resource requests, going beyond simply allocating <em>N</em> numb...
+**Lien:** https://kubernetes.io/blog/2025/09/18/kubernetes-v1-34-dra-consumable-capacity/
 
 ---
 
-### Kubernetes v1.34: Use An Init Container To Define App Environment Variables
+### Kubernetes v1.34: Pods Report DRA Resource Health
 **Source:** Kubernetes Blog
-**Résumé:** <p>Kubernetes typically uses ConfigMaps and Secrets to set environment variables,
-which introduces additional API calls and complexity,
-For example, you need to separately manage the Pods of your work...
-**Lien:** https://kubernetes.io/blog/2025/09/10/kubernetes-v1-34-env-files/
+**Résumé:** <p>The rise of AI/ML and other high-performance workloads has made specialized hardware like GPUs, TPUs, and FPGAs a critical component of many Kubernetes clusters. However, as discussed in a <a href=...
+**Lien:** https://kubernetes.io/blog/2025/09/17/kubernetes-v1-34-pods-report-dra-resource-health/
 
 ---
 
-### Introducing universal installers for AWS CLI v2 on macOS
+### AWS named as a Leader in the 2025 Gartner Magic Quadrant for AI Code Assistants
 **Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** Amazon Web Services (AWS) is announcing the availability of universal macOS installers for the AWS Command Line Interface (AWS CLI) v2. What’s new Starting with AWS CLI v2 version 2.30.0, the AWS CLI ...
-**Lien:** https://aws.amazon.com/blogs/devops/introducing-universal-installers-for-aws-cli-v2-on-macos/
-
----
-
-### AWS Cloud Development Kit (CDK) Launches Refactor
-**Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** We are excited to announce a new AWS Cloud Development Kit (CDK) feature that makes it easier and safer to refactor your infrastructure as code. CDK Refactor aims to preserve your AWS resources as you...
-**Lien:** https://aws.amazon.com/blogs/devops/aws-cloud-development-kit-cdk-launches-refactor/
-
----
-
-### Introducing an Interactive Code Review Experience with Amazon Q Developer in GitHub
-**Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** Code reviews are one of the most valuable rituals in software development. They help ensure quality, maintain consistency, and foster growth as engineers. But they’re also one of the most time consumi...
-**Lien:** https://aws.amazon.com/blogs/devops/introducing-an-interactive-code-review-experience-with-amazon-q-developer-in-github/
+**Résumé:** We are excited to share that AWS has been named a Leader in the 2025 Gartner Magic Quadrant for AI Code Assistants for the second year in row. This recognition highlights for us Amazon Q Developer’s c...
+**Lien:** https://aws.amazon.com/blogs/devops/aws-named-as-a-leader-in-the-2025-gartner-magic-quadrant-for-ai-code-assistants/
 
 ---
 

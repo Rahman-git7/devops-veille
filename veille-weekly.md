@@ -1,34 +1,27 @@
-# DevOps Veille - 2025-09-22
+# DevOps Veille - 2025-09-29
 
 ## 📈 Actualités cette semaine
 
-### Kubernetes v1.34: Recovery From Volume Expansion Failure (GA)
+### Announcing Changed Block Tracking API support (alpha)
 **Source:** Kubernetes Blog
-**Résumé:** <p>Have you ever made a typo when expanding your persistent volumes in Kubernetes? Meant to specify <code>2TB</code>
-but specified <code>20TiB</code>? This seemingly innocuous problem was kinda hard t...
-**Lien:** https://kubernetes.io/blog/2025/09/19/kubernetes-v1-34-recover-expansion-failure/
+**Résumé:** <p>We're excited to announce the alpha support for a <em>changed block tracking</em> mechanism. This enhances
+the Kubernetes storage ecosystem by providing an efficient way for
+<a href="https://kubern...
+**Lien:** https://kubernetes.io/blog/2025/09/25/csi-changed-block-tracking/
 
 ---
 
-### Kubernetes v1.34: DRA Consumable Capacity
+### Kubernetes v1.34: Pod Level Resources Graduated to Beta
 **Source:** Kubernetes Blog
-**Résumé:** <p>Dynamic Resource Allocation (DRA) is a Kubernetes API for managing scarce resources across Pods and containers.
-It enables flexible resource requests, going beyond simply allocating <em>N</em> numb...
-**Lien:** https://kubernetes.io/blog/2025/09/18/kubernetes-v1-34-dra-consumable-capacity/
+**Résumé:** <p>On behalf of the Kubernetes community, I am thrilled to announce that the Pod Level Resources feature has graduated to Beta in the Kubernetes v1.34 release and is enabled by default! This significa...
+**Lien:** https://kubernetes.io/blog/2025/09/22/kubernetes-v1-34-pod-level-resources/
 
 ---
 
-### Kubernetes v1.34: Pods Report DRA Resource Health
-**Source:** Kubernetes Blog
-**Résumé:** <p>The rise of AI/ML and other high-performance workloads has made specialized hardware like GPUs, TPUs, and FPGAs a critical component of many Kubernetes clusters. However, as discussed in a <a href=...
-**Lien:** https://kubernetes.io/blog/2025/09/17/kubernetes-v1-34-pods-report-dra-resource-health/
-
----
-
-### AWS named as a Leader in the 2025 Gartner Magic Quadrant for AI Code Assistants
+### Multi Agent Collaboration with Strands
 **Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** We are excited to share that AWS has been named a Leader in the 2025 Gartner Magic Quadrant for AI Code Assistants for the second year in row. This recognition highlights for us Amazon Q Developer’s c...
-**Lien:** https://aws.amazon.com/blogs/devops/aws-named-as-a-leader-in-the-2025-gartner-magic-quadrant-for-ai-code-assistants/
+**Résumé:** In the evolving landscape of autonomous systems, multi-agent collaboration is becoming not only feasible but necessary. As agents gain more capabilities, like advanced reasoning, adaptation, and tool ...
+**Lien:** https://aws.amazon.com/blogs/devops/multi-agent-collaboration-with-strands/
 
 ---
 

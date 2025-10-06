@@ -1,27 +1,25 @@
-# DevOps Veille - 2025-09-29
+# DevOps Veille - 2025-10-06
 
 ## 📈 Actualités cette semaine
 
-### Announcing Changed Block Tracking API support (alpha)
-**Source:** Kubernetes Blog
-**Résumé:** <p>We're excited to announce the alpha support for a <em>changed block tracking</em> mechanism. This enhances
-the Kubernetes storage ecosystem by providing an efficient way for
-<a href="https://kubern...
-**Lien:** https://kubernetes.io/blog/2025/09/25/csi-changed-block-tracking/
-
----
-
-### Kubernetes v1.34: Pod Level Resources Graduated to Beta
-**Source:** Kubernetes Blog
-**Résumé:** <p>On behalf of the Kubernetes community, I am thrilled to announce that the Pod Level Resources feature has graduated to Beta in the Kubernetes v1.34 release and is enabled by default! This significa...
-**Lien:** https://kubernetes.io/blog/2025/09/22/kubernetes-v1-34-pod-level-resources/
-
----
-
-### Multi Agent Collaboration with Strands
+### Reduce Docker image build time on AWS CodeBuild using Amazon ECR as a remote cache
 **Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** In the evolving landscape of autonomous systems, multi-agent collaboration is becoming not only feasible but necessary. As agents gain more capabilities, like advanced reasoning, adaptation, and tool ...
-**Lien:** https://aws.amazon.com/blogs/devops/multi-agent-collaboration-with-strands/
+**Résumé:** In modern software development, containerization with Docker has revolutionized how we build and deploy applications. While Docker enables packaging applications into portable containers, the continuo...
+**Lien:** https://aws.amazon.com/blogs/devops/reduce-docker-image-build-time-on-aws-codebuild-using-amazon-ecr-as-a-remote-cache/
+
+---
+
+### Multi-Cloud Code Deployments using Amazon Q Developer with Echo3D
+**Source:** AWS DevOps & Developer Productivity Blog
+**Résumé:** Overview Founded in 2018, echo3D built a revolutionary 3D digital asset management (DAM) platform to address the surging demand for immersive content across industries. The company’s platform enables ...
+**Lien:** https://aws.amazon.com/blogs/devops/multi-cloud-code-deployments-using-amazon-q-developer-with-echo3d/
+
+---
+
+### Accelerating AWS Infrastructure Deployment: A Practical Guide to Console-to-Code
+**Source:** AWS DevOps & Developer Productivity Blog
+**Résumé:** In today’s cloud-first environment, Infrastructure as Code (IaC) has become crucial for managing cloud resources effectively. However, organizations often face significant challenges in adopting IaC p...
+**Lien:** https://aws.amazon.com/blogs/devops/accelerating-aws-infrastructure-deployment-a-practical-guide-to-console-to-code/
 
 ---
 

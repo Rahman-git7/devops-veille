@@ -1,25 +1,25 @@
-# DevOps Veille - 2025-10-06
+# DevOps Veille - 2025-10-13
 
 ## 📈 Actualités cette semaine
 
-### Reduce Docker image build time on AWS CodeBuild using Amazon ECR as a remote cache
+### Boosting Unit Test Automation at Audible with Amazon Q Developer
 **Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** In modern software development, containerization with Docker has revolutionized how we build and deploy applications. While Docker enables packaging applications into portable containers, the continuo...
-**Lien:** https://aws.amazon.com/blogs/devops/reduce-docker-image-build-time-on-aws-codebuild-using-amazon-ecr-as-a-remote-cache/
+**Résumé:** Audible, an Amazon company, is a leading producer and provider of audio storytelling. With a vast library of over 1,000,000 titles including audiobooks, podcasts, and Audible Originals with specific c...
+**Lien:** https://aws.amazon.com/blogs/devops/boosting-unit-test-automation-at-audible-with-amazon-q-developer/
 
 ---
 
-### Multi-Cloud Code Deployments using Amazon Q Developer with Echo3D
+### StackSets Deployment Strategies: Balancing Speed, Safety, and Scale to Optimize Deployments for Different Organizational Needs
 **Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** Overview Founded in 2018, echo3D built a revolutionary 3D digital asset management (DAM) platform to address the surging demand for immersive content across industries. The company’s platform enables ...
-**Lien:** https://aws.amazon.com/blogs/devops/multi-cloud-code-deployments-using-amazon-q-developer-with-echo3d/
+**Résumé:** AWS CloudFormation StackSets enables organizations to deploy infrastructure consistently across multiple AWS accounts and regions. However, success depends on choosing the right deployment strategy th...
+**Lien:** https://aws.amazon.com/blogs/devops/stacksets-deployment-strategies-balancing-speed-safety-and-scale-to-optimize-deployments-for-different-organizational-needs/
 
 ---
 
-### Accelerating AWS Infrastructure Deployment: A Practical Guide to Console-to-Code
+### Moeve: Controlling resource deployment at scale with AWS CloudFormation Guard Hooks
 **Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** In today’s cloud-first environment, Infrastructure as Code (IaC) has become crucial for managing cloud resources effectively. However, organizations often face significant challenges in adopting IaC p...
-**Lien:** https://aws.amazon.com/blogs/devops/accelerating-aws-infrastructure-deployment-a-practical-guide-to-console-to-code/
+**Résumé:** This post is co-written with Rayco Martínez Hernández, Head of Cloud Governance at Moeve. Moeve, formerly known as Cepsa, is a global integrated energy company with over 90 years of experience and mor...
+**Lien:** https://aws.amazon.com/blogs/devops/moeve-controlling-resource-deployment-at-scale-with-aws-cloudformation-guard-hooks/
 
 ---
 

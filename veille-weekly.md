@@ -1,25 +1,40 @@
-# DevOps Veille - 2025-11-24
+# DevOps Veille - 2025-12-01
 
 ## 📈 Actualités cette semaine
 
-### Introducing AWS CloudFormation Stack Refactoring Console Experience: Reorganize Your Infrastructure Without Disruption
-**Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** AWS CloudFormation models and provisions cloud infrastructure as code, letting you manage entire lifecycle operations through declarative templates. Stack Refactoring console experience, announced tod...
-**Lien:** https://aws.amazon.com/blogs/devops/introducing-aws-cloudformation-stack-refactoring-reorganize-your-infrastructure-without-disruption/
+### Kubernetes v1.35 Sneak Peek
+**Source:** Kubernetes Blog
+**Résumé:** <p>As the release of Kubernetes v1.35 approaches, the Kubernetes project continues to evolve. Features may be deprecated, removed, or replaced to improve the project's overall health. This blog post o...
+**Lien:** https://kubernetes.io/blog/2025/11/26/kubernetes-v1-35-sneak-peek/
 
 ---
 
-### Take fine-grained control of your AWS CloudFormation StackSets Deployment with StackSet Dependencies
-**Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** Introduction AWS CloudFormation StackSets enable you to deploy CloudFormation stacks across multiple AWS accounts and regions with a single operation, providing centralized management of infrastructur...
-**Lien:** https://aws.amazon.com/blogs/devops/take-fine-grained-control-of-your-aws-cloudformation-stacksets-deployment-with-stackset-dependencies/
+### Kubernetes Configuration Good Practices
+**Source:** Kubernetes Blog
+**Résumé:** <p>Configuration is one of those things in Kubernetes that seems small until it's not. Configuration is at the heart of every Kubernetes workload.
+A missing quote, a wrong API version or a misplaced Y...
+**Lien:** https://kubernetes.io/blog/2025/11/25/configuration-good-practices/
 
 ---
 
-### Announcing CloudFormation IDE Experience: End-to-End Development in Your IDE
+### Building with AI-DLC using Amazon Q Developer
 **Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** If you’ve developed AWS CloudFormation templates, you know the drill; write YAML (YAML Ain’t Markup Language) in your IDE (Integrated Development Environment), switch to the AWS Management Console to ...
-**Lien:** https://aws.amazon.com/blogs/devops/announcing-cloudformation-ide-experience-end-to-end-development-in-your-ide/
+**Résumé:** The AI-Driven Development Life Cycle (AI-DLC) methodology marks a significant change in software development by strategically assigning routine tasks to AI while maintaining human oversight for critic...
+**Lien:** https://aws.amazon.com/blogs/devops/building-with-ai-dlc-using-amazon-q-developer/
+
+---
+
+### Open-Sourcing Adaptive Workflows for AI-Driven Development Life Cycle (AI-DLC)
+**Source:** AWS DevOps & Developer Productivity Blog
+**Résumé:** AI-Driven Development Life Cycle (AI-DLC) holds the promise of unlocking the full potential of AI in software development. By emphasizing AI-led workflows and human-centric decision-making, AI-DLC can...
+**Lien:** https://aws.amazon.com/blogs/devops/open-sourcing-adaptive-workflows-for-ai-driven-development-life-cycle-ai-dlc/
+
+---
+
+### Introducing the AWS Infrastructure as Code MCP Server: AI-Powered CDK and CloudFormation Assistance
+**Source:** AWS DevOps & Developer Productivity Blog
+**Résumé:** Streamline your AWS infrastructure development with AI-powered documentation search, validation, and troubleshooting Introduction Today, we’re excited to introduce the AWS Infrastructure-as-Code (IaC)...
+**Lien:** https://aws.amazon.com/blogs/devops/introducing-the-aws-infrastructure-as-code-mcp-server-ai-powered-cdk-and-cloudformation-assistance/
 
 ---
 

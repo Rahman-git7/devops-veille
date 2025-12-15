@@ -1,11 +1,11 @@
-# DevOps Veille - 2025-12-08
+# DevOps Veille - 2025-12-15
 
 ## 📈 Actualités cette semaine
 
-### Accelerate autonomous incident resolutions using the Datadog MCP server and AWS DevOps agent (in preview)
+### Resolve and prevent operational incidents with AWS DevOps Agent and New Relic
 **Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** This post was co-written with Omri Sass (Director of Product Management), Cansu Berkem (Director of Product Management), and Mohammad Jama (Product Marketing Manager) from Datadog. On-call engineers s...
-**Lien:** https://aws.amazon.com/blogs/devops/accelerate-autonomous-incident-resolutions-using-the-datadog-mcp-server-and-aws-devops-agent-in-preview/
+**Résumé:** This post was co-written with Muthuvelan Swaminathan (Principal Partner Engineer) and Ruchika Bakolia (Software Engineer) from New Relic. Modern distributed systems that generate massive volumes of me...
+**Lien:** https://aws.amazon.com/blogs/devops/resolve-and-prevent-operational-incidents-with-aws-devops-agent-and-new-relic/
 
 ---
 

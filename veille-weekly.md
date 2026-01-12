@@ -1,26 +1,38 @@
-# DevOps Veille - 2026-01-05
+# DevOps Veille - 2026-01-12
 
 ## 📈 Actualités cette semaine
 
-### Kubernetes v1.35: New level of efficiency with in-place Pod restart
+### Kubernetes v1.35: Restricting executables invoked by kubeconfigs via exec plugin allowList added to kuberc
 **Source:** Kubernetes Blog
-**Résumé:** <p>The release of Kubernetes 1.35 introduces a powerful new feature that provides a much-requested capability: the ability to trigger a full, in-place restart of the Pod. This feature, <em>Restart All...
-**Lien:** https://kubernetes.io/blog/2026/01/02/kubernetes-v1-35-restart-all-containers/
+**Résumé:** <p>Did you know that <code>kubectl</code> can run arbitrary executables, including shell
+scripts, with the full privileges of the invoking user, and without your
+knowledge? Whenever you download or au...
+**Lien:** https://kubernetes.io/blog/2026/01/09/kubernetes-v1-35-kuberc-credential-plugin-allowlist/
 
 ---
 
-### Kubernetes 1.35: Enhanced Debugging with Versioned z-pages APIs
+### Kubernetes v1.35: Mutable PersistentVolume Node Affinity (alpha)
 **Source:** Kubernetes Blog
-**Résumé:** <p>Debugging Kubernetes control plane components can be challenging, especially when you need to quickly understand the runtime state of a component or verify its configuration. With Kubernetes 1.35, ...
-**Lien:** https://kubernetes.io/blog/2025/12/31/kubernetes-v1-35-structured-zpages/
+**Résumé:** <p>The PersistentVolume <a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes/#node-affinity">node affinity</a> API
+dates back to Kubernetes v1.10.
+It is widely used to express that ...
+**Lien:** https://kubernetes.io/blog/2026/01/08/kubernetes-v1-35-mutable-pv-nodeaffinity/
 
 ---
 
-### Kubernetes v1.35: Watch Based Route Reconciliation in the Cloud Controller Manager
+### Kubernetes v1.35: A Better Way to Pass Service Account Tokens to CSI Drivers
 **Source:** Kubernetes Blog
-**Résumé:** <p>Up to and including Kubernetes v1.34, the route controller in Cloud Controller Manager (CCM)
-implementations built using the <a href="https://github.com/kubernetes/cloud-provider">k8s.io/cloud-prov...
-**Lien:** https://kubernetes.io/blog/2025/12/30/kubernetes-v1-35-watch-based-route-reconciliation-in-ccm/
+**Résumé:** <p>If you maintain a CSI driver that uses service account tokens,
+Kubernetes v1.35 brings a refinement you'll want to know about.
+Since the introduction of the <a href="https://kubernetes-csi.github.i...
+**Lien:** https://kubernetes.io/blog/2026/01/07/kubernetes-v1-35-csi-sa-tokens-secrets-field-beta/
+
+---
+
+### Automating AWS SDK for Java v1 to v2 Upgrades with AWS Transform
+**Source:** AWS DevOps & Developer Productivity Blog
+**Résumé:** The AWS SDK for Java v2&nbsp;represents a fundamental shift in how Java applications interact with AWS services,&nbsp;addressing critical security requirements while delivering measurable performance ...
+**Lien:** https://aws.amazon.com/blogs/devops/automating-aws-sdk-for-java-v1-to-v2-upgrades-with-aws-transform/
 
 ---
 

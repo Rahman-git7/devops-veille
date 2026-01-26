@@ -1,11 +1,28 @@
-# DevOps Veille - 2026-01-19
+# DevOps Veille - 2026-01-26
 
 ## 📈 Actualités cette semaine
 
-### From AI agent prototype to product: Lessons from building AWS DevOps Agent
-**Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** At re:Invent 2025, Matt Garman announced AWS DevOps Agent, a frontier agent that resolves and proactively prevents incidents, continuously improving reliability and performance. As a member of the Dev...
-**Lien:** https://aws.amazon.com/blogs/devops/from-ai-agent-prototype-to-product-lessons-from-building-aws-devops-agent/
+### Headlamp in 2025: Project Highlights
+**Source:** Kubernetes Blog
+**Résumé:** <p><em>This announcement is a recap from a post originally <a href="https://headlamp.dev/blog/2025/11/13/headlamp-in-2025">published</a> on the Headlamp blog.</em></p>
+<p><a href="https://headlamp.dev...
+**Lien:** https://kubernetes.io/blog/2026/01/22/headlamp-in-2025-project-highlights/
+
+---
+
+### Announcing the Checkpoint/Restore Working Group
+**Source:** Kubernetes Blog
+**Résumé:** <p>The community around Kubernetes includes a number of Special Interest Groups (SIGs) and Working Groups (WGs) facilitating discussions on important topics between interested contributors. Today we w...
+**Lien:** https://kubernetes.io/blog/2026/01/21/introducing-checkpoint-restore-wg/
+
+---
+
+### Uniform API server access using clientcmd
+**Source:** Kubernetes Blog
+**Résumé:** <p>If you've ever wanted to develop a command line client for a Kubernetes API,
+especially if you've considered making your client usable as a <code>kubectl</code> plugin,
+you might have wondered how ...
+**Lien:** https://kubernetes.io/blog/2026/01/19/clientcmd-apiserver-access/
 
 ---
 

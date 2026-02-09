@@ -1,41 +1,26 @@
-# DevOps Veille - 2026-02-02
+# DevOps Veille - 2026-02-09
 
 ## 📈 Actualités cette semaine
 
-### New Conversion from cgroup v1 CPU Shares to v2 CPU Weight
+### Introducing Node Readiness Controller
 **Source:** Kubernetes Blog
-**Résumé:** <p>I'm excited to announce the implementation of an improved conversion formula
-from cgroup v1 CPU shares to cgroup v2 CPU weight. This enhancement addresses
-critical issues with CPU priority allocati...
-**Lien:** https://kubernetes.io/blog/2026/01/30/new-cgroup-v1-to-v2-cpu-conversion-formula/
+**Résumé:** <img alt="Logo for node readiness controller" src="https://kubernetes.io/node-readiness-controller-logo.svg" style="float: right; display: inline-block; margin-left: 2em;" />
+<p>In the standard Kubern...
+**Lien:** https://kubernetes.io/blog/2026/02/03/introducing-node-readiness-controller/
 
 ---
 
-### Ingress NGINX: Statement from the Kubernetes Steering and Security Response Committees
-**Source:** Kubernetes Blog
-**Résumé:** <p><strong>In March 2026, Kubernetes will retire Ingress NGINX, a piece of critical infrastructure for about half of cloud native environments.</strong> The retirement of Ingress NGINX was <a href="ht...
-**Lien:** https://kubernetes.io/blog/2026/01/29/ingress-nginx-statement/
-
----
-
-### Experimenting with Gateway API using kind
-**Source:** Kubernetes Blog
-**Résumé:** <p>This document will guide you through setting up a local experimental environment with <a href="https://gateway-api.sigs.k8s.io/">Gateway API</a> on <a href="https://kind.sigs.k8s.io/">kind</a>. Thi...
-**Lien:** https://kubernetes.io/blog/2026/01/28/experimenting-gateway-api-with-kind/
-
----
-
-### Best Practices for Deploying AWS DevOps Agent in Production
+### Building a scalable code modernization solution with AWS Transform custom
 **Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** Root cause analysis during incidents is one of the most time-consuming and stressful parts of operating cloud applications. Engineers must quickly correlate telemetry data across multiple services, re...
-**Lien:** https://aws.amazon.com/blogs/devops/best-practices-for-deploying-aws-devops-agent-in-production/
+**Résumé:** Introduction Software maintenance and modernization is a critical challenge for enterprises managing hundreds or thousands of repositories. Whether upgrading Java versions, migrating to new AWS SDKs, ...
+**Lien:** https://aws.amazon.com/blogs/devops/building-a-scalable-code-modernization-solution-with-aws-transform-custom/
 
 ---
 
-### AWS CloudFormation 2025 Year In Review
+### AWS Transform custom: AI-driven Java modernization to reduce tech debt
 **Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** AWS CloudFormation enables you to model and provision your cloud application infrastructure as code-base templates. Whether you prefer writing templates directly in JSON or YAML, or using programming ...
-**Lien:** https://aws.amazon.com/blogs/devops/aws-cloudformation-2025-year-in-review/
+**Résumé:** In today’s rapidly evolving software landscape, maintaining and modernizing Java applications is a critical challenge for many organizations. As new Java versions are released and best practices evolv...
+**Lien:** https://aws.amazon.com/blogs/devops/aws-transform-custom-ai-driven-java-modernization-to-reduce-tech-debt/
 
 ---
 

@@ -1,26 +1,19 @@
-# DevOps Veille - 2026-02-09
+# DevOps Veille - 2026-02-16
 
 ## 📈 Actualités cette semaine
 
-### Introducing Node Readiness Controller
+### Spotlight on SIG Architecture: API Governance
 **Source:** Kubernetes Blog
-**Résumé:** <img alt="Logo for node readiness controller" src="https://kubernetes.io/node-readiness-controller-logo.svg" style="float: right; display: inline-block; margin-left: 2em;" />
-<p>In the standard Kubern...
-**Lien:** https://kubernetes.io/blog/2026/02/03/introducing-node-readiness-controller/
+**Résumé:** <p><em>This is the fifth interview of a SIG Architecture Spotlight series that covers the different
+subprojects, and we will be covering <a href="https://github.com/kubernetes/community/blob/master/si...
+**Lien:** https://kubernetes.io/blog/2026/02/12/sig-architecture-api-spotlight/
 
 ---
 
-### Building a scalable code modernization solution with AWS Transform custom
+### Choosing between Amazon ECS Blue/Green Native or AWS CodeDeploy in AWS CDK
 **Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** Introduction Software maintenance and modernization is a critical challenge for enterprises managing hundreds or thousands of repositories. Whether upgrading Java versions, migrating to new AWS SDKs, ...
-**Lien:** https://aws.amazon.com/blogs/devops/building-a-scalable-code-modernization-solution-with-aws-transform-custom/
-
----
-
-### AWS Transform custom: AI-driven Java modernization to reduce tech debt
-**Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** In today’s rapidly evolving software landscape, maintaining and modernizing Java applications is a critical challenge for many organizations. As new Java versions are released and best practices evolv...
-**Lien:** https://aws.amazon.com/blogs/devops/aws-transform-custom-ai-driven-java-modernization-to-reduce-tech-debt/
+**Résumé:** Blue/green deployments on Amazon Elastic Container Service (Amazon ECS) have long been a go-to pattern for shipping zero-downtime deployments. Historically, the recommended approach in the AWS Cloud D...
+**Lien:** https://aws.amazon.com/blogs/devops/choosing-between-amazon-ecs-blue-green-native-or-aws-codedeploy-in-aws-cdk/
 
 ---
 

@@ -1,12 +1,18 @@
-# DevOps Veille - 2026-03-02
+# DevOps Veille - 2026-03-09
 
 ## 📈 Actualités cette semaine
 
-### Before You Migrate: Five Surprising Ingress-NGINX Behaviors You Need to Know
-**Source:** Kubernetes Blog
-**Résumé:** <p>As <a href="https://kubernetes.io/blog/2025/11/11/ingress-nginx-retirement/">announced</a> November 2025, Kubernetes will retire Ingress-NGINX in March 2026.
-Despite its widespread usage, Ingress-N...
-**Lien:** https://kubernetes.io/blog/2026/02/27/ingress-nginx-before-you-migrate/
+### Standardizing construct properties with AWS CDK Property Injection
+**Source:** AWS DevOps & Developer Productivity Blog
+**Résumé:** Standardizing CDK construct properties across a large organization requires repetitive manual effort that scales poorly as teams and repositories grow. Development teams working with AWS Cloud Develop...
+**Lien:** https://aws.amazon.com/blogs/devops/standardizing-construct-properties-with-aws-cdk-property-injection/
+
+---
+
+### Automate AWS Lambda Runtime Upgrades with AWS Transform custom
+**Source:** AWS DevOps & Developer Productivity Blog
+**Résumé:** Introduction Organizations carry a growing burden of technical debt — aging codebases, outdated runtimes, and legacy frameworks that slow innovation, increase security risk, and inflate maintenance co...
+**Lien:** https://aws.amazon.com/blogs/devops/automate-aws-lambda-runtime-upgrades-with-aws-transform-custom/
 
 ---
 

@@ -1,45 +1,36 @@
-# DevOps Veille - 2026-04-27
+# DevOps Veille - 2026-05-04
 
 ## 📈 Actualités cette semaine
 
-### Kubernetes v1.36: Fine-Grained Kubelet API Authorization Graduates to GA
+### Kubernetes v1.36: Pod-Level Resource Managers (Alpha)
 **Source:** Kubernetes Blog
-**Résumé:** <p>On behalf of Kubernetes SIG Auth and SIG Node, we are pleased to announce the
-graduation of fine-grained <code>kubelet</code> API authorization to General Availability
-(GA) in Kubernetes v1.36!</p>...
-**Lien:** https://kubernetes.io/blog/2026/04/24/kubernetes-v1-36-fine-grained-kubelet-authorization-ga/
+**Résumé:** <p>Kubernetes v1.36 introduces
+<a href="https://kubernetes.io/docs/concepts/workloads/resource-managers/#pod-level-resource-managers">Pod-Level Resource Managers</a>
+as an alpha feature, bringing a mo...
+**Lien:** https://kubernetes.io/blog/2026/05/01/kubernetes-v1-36-feature-pod-level-resource-managers-alpha/
 
 ---
 
-### Kubernetes v1.36: User Namespaces in Kubernetes are finally GA
+### Kubernetes v1.36: In-Place Vertical Scaling for Pod-Level Resources Graduates to Beta
 **Source:** Kubernetes Blog
-**Résumé:** <p>After several years of development, User Namespaces support in
-Kubernetes reached General Availability (GA) with the v1.36 release.
-This is a Linux-only feature.</p>
-<p>For those of us working on l...
-**Lien:** https://kubernetes.io/blog/2026/04/23/kubernetes-v1-36-userns-ga/
+**Résumé:** <p>Following the graduation of Pod-Level Resources to Beta in v1.34 and the General Availability (GA) of In-Place Pod Vertical Scaling in v1.35, the Kubernetes community is thrilled to announce that <...
+**Lien:** https://kubernetes.io/blog/2026/04/30/kubernetes-v1-36-inplace-pod-level-resources-beta/
 
 ---
 
-### SELinux Volume Label Changes goes GA (and likely implications in v1.37)
+### Kubernetes v1.36: Tiered Memory Protection with Memory QoS
 **Source:** Kubernetes Blog
-**Résumé:** <p>If you run Kubernetes on Linux with SELinux in enforcing mode, plan ahead: a future release (anticipated to be v1.37) is
-expected to turn the <code>SELinuxMount</code> <a href="https://kubernetes.i...
-**Lien:** https://kubernetes.io/blog/2026/04/22/breaking-changes-in-selinux-volume-labeling/
+**Résumé:** <p>On behalf of SIG Node, we are pleased to announce updates to the Memory QoS
+feature (alpha) in Kubernetes v1.36. Memory QoS uses the cgroup v2 memory
+controller to give the kernel better guidance o...
+**Lien:** https://kubernetes.io/blog/2026/04/29/kubernetes-v1-36-memory-qos-tiered-protection/
 
 ---
 
-### AWS Transform custom: Enterprise Code Modernization with the Learn-Scale-Improve Flywheel
+### Amazon Q Developer end-of-support announcement
 **Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** Enterprise modernization has reached an inflection point. You can transform one repository easily. Existing tools, including AWS Transform custom, work well for individual repositories, and the proces...
-**Lien:** https://aws.amazon.com/blogs/devops/aws-transform-custom-enterprise-code-modernization-with-the-learn-scale-improve-flywheel/
-
----
-
-### Automating Incident Investigation with AWS DevOps Agent and Salesforce MCP Server
-**Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** This post was co-written with Ross Belmont, Senior Director, Rodrigo Duran, Strategist Director at Salesforce Every minute counts when managing a critical infrastructure incident. Organizations need t...
-**Lien:** https://aws.amazon.com/blogs/devops/automating-incident-investigation-with-aws-devops-agent-and-salesforce-mcp-server/
+**Résumé:** When we launched Amazon Q Developer, our goal was to bring AI assistance directly into the developer workflow. Customers adopted Q Developer across VS Code, JetBrains, Eclipse, and Visual Studio, usin...
+**Lien:** https://aws.amazon.com/blogs/devops/amazon-q-developer-end-of-support-announcement/
 
 ---
 

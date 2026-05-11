@@ -1,36 +1,36 @@
-# DevOps Veille - 2026-05-04
+# DevOps Veille - 2026-05-11
 
 ## 📈 Actualités cette semaine
 
-### Kubernetes v1.36: Pod-Level Resource Managers (Alpha)
+### Kubernetes v1.36: Moving Volume Group Snapshots to GA
 **Source:** Kubernetes Blog
-**Résumé:** <p>Kubernetes v1.36 introduces
-<a href="https://kubernetes.io/docs/concepts/workloads/resource-managers/#pod-level-resource-managers">Pod-Level Resource Managers</a>
-as an alpha feature, bringing a mo...
-**Lien:** https://kubernetes.io/blog/2026/05/01/kubernetes-v1-36-feature-pod-level-resource-managers-alpha/
+**Résumé:** <p>Volume group snapshots were <a href="https://kubernetes.io/blog/2023/05/08/kubernetes-1-27-volume-group-snapshot-alpha/">introduced</a> as an Alpha feature with the Kubernetes v1.27 release, moved ...
+**Lien:** https://kubernetes.io/blog/2026/05/08/kubernetes-v1-36-volume-group-snapshot-ga/
 
 ---
 
-### Kubernetes v1.36: In-Place Vertical Scaling for Pod-Level Resources Graduates to Beta
+### Kubernetes v1.36: More Drivers, New Features, and the Next Era of DRA
 **Source:** Kubernetes Blog
-**Résumé:** <p>Following the graduation of Pod-Level Resources to Beta in v1.34 and the General Availability (GA) of In-Place Pod Vertical Scaling in v1.35, the Kubernetes community is thrilled to announce that <...
-**Lien:** https://kubernetes.io/blog/2026/04/30/kubernetes-v1-36-inplace-pod-level-resources-beta/
+**Résumé:** <p>Dynamic Resource Allocation (DRA) has fundamentally changed how platform administrators handle hardware
+accelerators and specialized resources in Kubernetes. In the v1.36 release, DRA
+continues to ...
+**Lien:** https://kubernetes.io/blog/2026/05/07/kubernetes-v1-36-dra-136-updates/
 
 ---
 
-### Kubernetes v1.36: Tiered Memory Protection with Memory QoS
+### Kubernetes v1.36: Server-Side Sharded List and Watch
 **Source:** Kubernetes Blog
-**Résumé:** <p>On behalf of SIG Node, we are pleased to announce updates to the Memory QoS
-feature (alpha) in Kubernetes v1.36. Memory QoS uses the cgroup v2 memory
-controller to give the kernel better guidance o...
-**Lien:** https://kubernetes.io/blog/2026/04/29/kubernetes-v1-36-memory-qos-tiered-protection/
+**Résumé:** <p>As Kubernetes clusters grow to tens of thousands of nodes, controllers that watch
+high-cardinality resources like Pods face a scaling wall. Every replica of a
+horizontally scaled controller receive...
+**Lien:** https://kubernetes.io/blog/2026/05/06/kubernetes-v1-36-server-side-sharded-list-and-watch/
 
 ---
 
-### Amazon Q Developer end-of-support announcement
+### Building an end-to-end agentic SRE using AWS DevOps Agent
 **Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** When we launched Amazon Q Developer, our goal was to bring AI assistance directly into the developer workflow. Customers adopted Q Developer across VS Code, JetBrains, Eclipse, and Visual Studio, usin...
-**Lien:** https://aws.amazon.com/blogs/devops/amazon-q-developer-end-of-support-announcement/
+**Résumé:** Introduction As modern applications evolve into complex ecosystems of serverless functions, microservices, and event-driven architectures, incident response becomes increasingly challenging. DevOps an...
+**Lien:** https://aws.amazon.com/blogs/devops/building-an-end-to-end-agentic-sre-using-aws-devops-agent/
 
 ---
 

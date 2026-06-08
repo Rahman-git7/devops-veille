@@ -1,20 +1,18 @@
-# DevOps Veille - 2026-06-01
+# DevOps Veille - 2026-06-08
 
 ## 📈 Actualités cette semaine
 
-### Reconciling the Past: Correcting Records for Unfixed Kubernetes CVEs
+### From Kubernetes Dashboard to Headlamp: Understanding the Transition
 **Source:** Kubernetes Blog
-**Résumé:** <p>The Kubernetes project relies on transparency to empower cluster administrators and security
-researchers. One important way we do that is by publishing CVE records into the Common
-Vulnerabilities a...
-**Lien:** https://kubernetes.io/blog/2026/05/26/reconciling-unfixed-kubernetes-cves/
+**Résumé:** <p>For many people, Kubernetes Dashboard was their first window into Kubernetes. It offered a simple visual way to see what was running in a cluster, inspect resources, and build confidence without re...
+**Lien:** https://kubernetes.io/blog/2026/06/01/dashboard-to-headlamp/
 
 ---
 
-### How AWS DevOps Agent uses multi-agent reasoning to find root causes
+### Debug deployment failures faster with the Deployments tab in AWS Elastic Beanstalk
 **Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** Confirmation bias is one of the most common reasons incident investigations take longer than they should. An on-call engineer gets alerted, forms a theory based on initial triage and experience, finds...
-**Lien:** https://aws.amazon.com/blogs/devops/how-aws-devops-agent-uses-multi-agent-reasoning-to-find-root-causes/
+**Résumé:** Introduction When a deployment fails, finding the root cause often means piecing together information from multiple sources. You wait for the deployment to finish, request a log bundle, download it, a...
+**Lien:** https://aws.amazon.com/blogs/devops/debug-deployment-failures-faster-with-the-deployments-tab-in-aws-elastic-beanstalk/
 
 ---
 

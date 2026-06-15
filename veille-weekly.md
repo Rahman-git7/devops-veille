@@ -1,18 +1,26 @@
-# DevOps Veille - 2026-06-08
+# DevOps Veille - 2026-06-15
 
 ## 📈 Actualités cette semaine
 
-### From Kubernetes Dashboard to Headlamp: Understanding the Transition
+### Spotlight on SIG Storage
 **Source:** Kubernetes Blog
-**Résumé:** <p>For many people, Kubernetes Dashboard was their first window into Kubernetes. It offered a simple visual way to see what was running in a cluster, inspect resources, and build confidence without re...
-**Lien:** https://kubernetes.io/blog/2026/06/01/dashboard-to-headlamp/
+**Résumé:** <p>In our ongoing SIG Spotlight series, we shine a light on the groups that keep the Kubernetes project
+moving forward. This time, we catch up with <strong><a href="https://github.com/kubernetes/commu...
+**Lien:** https://kubernetes.io/blog/2026/06/15/sig-storage-spotlight-2026/
 
 ---
 
-### Debug deployment failures faster with the Deployments tab in AWS Elastic Beanstalk
+### Accelerate Incident Resolution with PagerDuty and AWS DevOps Agent
 **Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** Introduction When a deployment fails, finding the root cause often means piecing together information from multiple sources. You wait for the deployment to finish, request a log bundle, download it, a...
-**Lien:** https://aws.amazon.com/blogs/devops/debug-deployment-failures-faster-with-the-deployments-tab-in-aws-elastic-beanstalk/
+**Résumé:** When something breaks in production, you find out fast. Understanding why it broke, before the damage spreads, is the hard part. That is where Site Reliability Engineering (SRE) teams lose the most ti...
+**Lien:** https://aws.amazon.com/blogs/devops/accelerate-incident-resolution-with-pagerduty-and-aws-devops-agent/
+
+---
+
+### Diagnose EKS Node Issues Faster with AWS DevOps Agent and Custom MCP
+**Source:** AWS DevOps & Developer Productivity Blog
+**Résumé:** AWS DevOps Agent can investigate a growing range of production incidents autonomously. It diagnoses CrashLoopBackOff failures, traces ConfigMap deletions through audit logs, and correlates Amazon Clou...
+**Lien:** https://aws.amazon.com/blogs/devops/diagnose-eks-node-issues-faster-with-aws-devops-agent-and-custom-mcp/
 
 ---
 

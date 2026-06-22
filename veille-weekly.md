@@ -1,12 +1,18 @@
-# DevOps Veille - 2026-06-15
+# DevOps Veille - 2026-06-22
 
 ## 📈 Actualités cette semaine
 
-### Spotlight on SIG Storage
-**Source:** Kubernetes Blog
-**Résumé:** <p>In our ongoing SIG Spotlight series, we shine a light on the groups that keep the Kubernetes project
-moving forward. This time, we catch up with <strong><a href="https://github.com/kubernetes/commu...
-**Lien:** https://kubernetes.io/blog/2026/06/15/sig-storage-spotlight-2026/
+### Feature Flag Orchestration with AWS DevOps Agent and LaunchDarkly
+**Source:** AWS DevOps & Developer Productivity Blog
+**Résumé:** Introduction Organizations that use feature flags alongside incident response tooling often connect the two manually. When an outage occurs, engineers must identify which flags are relevant, decide wh...
+**Lien:** https://aws.amazon.com/blogs/devops/feature-flag-orchestration-with-aws-devops-agent-and-launchdarkly/
+
+---
+
+### Supercharge your cloud operations with the Kiro power for AWS DevOps Agent
+**Source:** AWS DevOps & Developer Productivity Blog
+**Résumé:** When an alarm fires at 2 AM, the first thing most engineers do is grep logs, check recent deployments, and trace code paths. However, the context they need — metrics, traces, topology, configurations ...
+**Lien:** https://aws.amazon.com/blogs/devops/supercharge-your-cloud-operations-with-the-kiro-power-for-aws-devops-agent/
 
 ---
 
@@ -14,13 +20,6 @@ moving forward. This time, we catch up with <strong><a href="https://github.com/
 **Source:** AWS DevOps & Developer Productivity Blog
 **Résumé:** When something breaks in production, you find out fast. Understanding why it broke, before the damage spreads, is the hard part. That is where Site Reliability Engineering (SRE) teams lose the most ti...
 **Lien:** https://aws.amazon.com/blogs/devops/accelerate-incident-resolution-with-pagerduty-and-aws-devops-agent/
-
----
-
-### Diagnose EKS Node Issues Faster with AWS DevOps Agent and Custom MCP
-**Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** AWS DevOps Agent can investigate a growing range of production incidents autonomously. It diagnoses CrashLoopBackOff failures, traces ConfigMap deletions through audit logs, and correlates Amazon Clou...
-**Lien:** https://aws.amazon.com/blogs/devops/diagnose-eks-node-issues-faster-with-aws-devops-agent-and-custom-mcp/
 
 ---
 

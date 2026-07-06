@@ -1,38 +1,18 @@
-# DevOps Veille - 2026-06-29
+# DevOps Veille - 2026-07-06
 
 ## 📈 Actualités cette semaine
 
-### Open source maintainership in the age of AI
-**Source:** Kubernetes Blog
-**Résumé:** <p>AI has really changed the game around software development.
-More people are leveraging AI than ever to contribute patches to projects they use.
-To me, this is a good thing as more folks will contri...
-**Lien:** https://kubernetes.io/blog/2026/06/26/open-source-maintainership-in-the-age-of-ai/
-
----
-
-### Introducing the Cluster API plugin for Headlamp
-**Source:** Kubernetes Blog
-**Résumé:** <p><a href="https://headlamp.dev/">Headlamp</a> is an open-source, extensible Kubernetes SIG UI
-project designed to let you explore, manage, and debug cluster resources directly
-from a browser.</p>
-<p...
-**Lien:** https://kubernetes.io/blog/2026/06/25/headlamp-cluster-api-plugin/
-
----
-
-### Inspect Volcano workloads faster with Headlamp
-**Source:** Kubernetes Blog
-**Résumé:** <p><a href="https://volcano.sh/">Volcano</a> is a cloud native batch scheduler for Kubernetes, built for high-performance computing, AI/ML, and other batch workloads.</p>
-<p><a href="https://headlamp....
-**Lien:** https://kubernetes.io/blog/2026/06/25/visual-context-volcano-headlamp-plugin/
-
----
-
-### Building and running custom code transformations without leaving your editor
+### How CloudFormation express mode accelerates your development cycle
 **Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** Custom code transformations are the work that no off-the-shelf migrator covers for you. Moving your services off an internal library, enforcing your team’s error-handling conventions, standardizing lo...
-**Lien:** https://aws.amazon.com/blogs/devops/building-and-running-custom-code-transformations-without-leaving-your-editor/
+**Résumé:** AWS CloudFormation helps you model and provision cloud infrastructure as code using JSON or YAML templates, or through tools like the AWS Cloud Development Kit (CDK) and AWS Serverless Application Mod...
+**Lien:** https://aws.amazon.com/blogs/devops/how-cloudformation-express-mode-accelerates-your-development-cycle/
+
+---
+
+### Ship infrastructure faster with CloudFormation and CDK pre-deployment validation on every stack operation
+**Source:** AWS DevOps & Developer Productivity Blog
+**Résumé:** AWS CloudFormation helps you model and provision cloud infrastructure as code using JSON or YAML templates, or through tools like the AWS Cloud Development Kit (CDK). Whether you create stacks directl...
+**Lien:** https://aws.amazon.com/blogs/devops/ship-infrastructure-faster-with-cloudformation-and-cdk-pre-deployment-validation-on-every-stack-operation/
 
 ---
 

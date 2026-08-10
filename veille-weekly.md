@@ -1,35 +1,33 @@
-# DevOps Veille - 2026-08-03
+# DevOps Veille - 2026-08-10
 
 ## 📈 Actualités cette semaine
 
-### Kubernetes v1.37 Sneak Peek
+### Gateway API v1.6: TCPRoute and UDPRoute Graduate to Standard
 **Source:** Kubernetes Blog
-**Résumé:** <p>As we get closer to the release date for Kubernetes v1.37, the project develops and matures,
-features may be deprecated, removed, or replaced with better ones for the project's overall
-health. This...
-**Lien:** https://kubernetes.io/blog/2026/07/31/kubernetes-v1-37-sneak-peek/
+**Résumé:** <p><img alt="Gateway API logo" src="https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/gateway-api-logo.svg" /></p>
+<p>The Kubernetes SIG Network community is thrilled to share the release...
+**Lien:** https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/
 
 ---
 
-### How the controller-runtime Cache Actually Works, and Why Your Controller Does Not Crash the API Server
-**Source:** Kubernetes Blog
-**Résumé:** <!-- TODO: remove this banner once the corrections to this article have merged. -->
-<div class="alert alert-caution"><h4 class="alert-heading">Caution:</h4>Some of the technical detail in this article...
-**Lien:** https://kubernetes.io/blog/2026/07/29/controller-runtime-cache-explained/
-
----
-
-### How Company 3 Streamlines Studio Image Management with EC2 Image Builder and AWS CDK
+### Scaling Autonomous Operations with AWS DevOps Agent and ServiceNow
 **Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** Guest post in collaboration with Company 3 Director of New Technology, Phil Wortas, and Senior New Technology Engineer, Matthew Galloway Introduction Company 3 provides specialized services for the en...
-**Lien:** https://aws.amazon.com/blogs/devops/how-company-3-streamlines-studio-image-management-with-ec2-image-builder-and-aws-cdk/
+**Résumé:** This post is co-written with Govind Menon, Head of MCP Product at ServiceNow. Introduction Enterprise teams managing applications on AWS often rely on ServiceNow as their IT service management (ITSM) ...
+**Lien:** https://aws.amazon.com/blogs/devops/scaling-autonomous-operations-with-aws-devops-agent-and-servicenow/
 
 ---
 
-### Add security context to operational investigations with AWS DevOps Agent and Wiz
+### Accelerate CloudFormation development with the IaC MCP Server
 **Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** This post was co-authored by Ayelet Harcz (Product Manager), Hen Perez (CTO Architect), and Shani Gafni (Product Manager) at Wiz. When an on-call engineer receives an alert at 2 AM, a CPU spike, a lat...
-**Lien:** https://aws.amazon.com/blogs/devops/add-security-context-to-operational-investigations-with-aws-devops-agent-and-wiz/
+**Résumé:** Walk through a complete CloudFormation development cycle - authoring, validation, deployment, and troubleshooting - without leaving your AI assistant, using the AWS IaC MCP Server.
+**Lien:** https://aws.amazon.com/blogs/devops/accelerate-cloudformation-development-with-the-iac-mcp-server/
+
+---
+
+### Analyze and remediate technical debt autonomously with AWS Transform – continuous modernization
+**Source:** AWS DevOps & Developer Productivity Blog
+**Résumé:** Introduction In a recent post, my colleague Micah Walter introduced AWS Transform – continuous modernization in public preview. Today, this capability is generally available in regions supported for A...
+**Lien:** https://aws.amazon.com/blogs/devops/analyze-and-remediate-technical-debt-autonomously-with-aws-transform-continuous-modernization/
 
 ---
 

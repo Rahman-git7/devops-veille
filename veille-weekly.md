@@ -1,33 +1,32 @@
-# DevOps Veille - 2026-08-10
+# DevOps Veille - 2026-08-17
 
 ## 📈 Actualités cette semaine
 
-### Gateway API v1.6: TCPRoute and UDPRoute Graduate to Standard
+### How to Pretty-Print Your Kubernetes YAML as KYAML and Why You'd Want To
 **Source:** Kubernetes Blog
-**Résumé:** <p><img alt="Gateway API logo" src="https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/gateway-api-logo.svg" /></p>
-<p>The Kubernetes SIG Network community is thrilled to share the release...
-**Lien:** https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/
+**Résumé:** <p>YAML has been the standard way to write Kubernetes manifests for years. Every example, tutorial, and configuration file you come across is written in it. The problem isn't that YAML is a bad format...
+**Lien:** https://kubernetes.io/blog/2026/08/11/how-to-pretty-print-kubernetes-yaml-as-kyaml/
 
 ---
 
-### Scaling Autonomous Operations with AWS DevOps Agent and ServiceNow
+### Extending AWS Transform custom with MCP Servers for End-to-End Code Modernization
 **Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** This post is co-written with Govind Menon, Head of MCP Product at ServiceNow. Introduction Enterprise teams managing applications on AWS often rely on ServiceNow as their IT service management (ITSM) ...
-**Lien:** https://aws.amazon.com/blogs/devops/scaling-autonomous-operations-with-aws-devops-agent-and-servicenow/
+**Résumé:** Automating migration pipelines shifts valuable resources toward innovation. In this post, we will help you learn how to extend AWS Transform custom with Model Context Protocol (MCP) server integration...
+**Lien:** https://aws.amazon.com/blogs/devops/extending-aws-transform-custom-with-mcp-servers-for-end-to-end-code-modernization/
 
 ---
 
-### Accelerate CloudFormation development with the IaC MCP Server
+### Automate SageMaker HyperPod incident triage and root-cause-analysis with AWS DevOps Agent
 **Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** Walk through a complete CloudFormation development cycle - authoring, validation, deployment, and troubleshooting - without leaving your AI assistant, using the AWS IaC MCP Server.
-**Lien:** https://aws.amazon.com/blogs/devops/accelerate-cloudformation-development-with-the-iac-mcp-server/
+**Résumé:** Introduction Large-scale machine learning workloads:&nbsp;training, fine-tuning, and inference run on clusters of hundreds to thousands of GPU instances for days or weeks at a stretch. Keeping operati...
+**Lien:** https://aws.amazon.com/blogs/devops/automate-sagemaker-hyperpod-incident-triage-and-root-cause-analysis-with-aws-devops-agent/
 
 ---
 
-### Analyze and remediate technical debt autonomously with AWS Transform – continuous modernization
+### Scaling organizational knowledge in Kiro with Amazon Bedrock Knowledge Bases, LangChain, and MCP
 **Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** Introduction In a recent post, my colleague Micah Walter introduced AWS Transform – continuous modernization in public preview. Today, this capability is generally available in regions supported for A...
-**Lien:** https://aws.amazon.com/blogs/devops/analyze-and-remediate-technical-debt-autonomously-with-aws-transform-continuous-modernization/
+**Résumé:** “A pull request comes back with a single comment: “This doesn’t follow our circuit breaker pattern. Check the Architectural Decision Record .”&nbsp; You know the architecture decision record exists so...
+**Lien:** https://aws.amazon.com/blogs/devops/scaling-organizational-knowledge-in-kiro-with-amazon-bedrock-knowledge-bases-langchain-and-mcp/
 
 ---
 

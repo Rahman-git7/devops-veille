@@ -1,49 +1,50 @@
-# DevOps Veille - 2026-08-31
+# DevOps Veille - 2026-09-07
 
 ## 📈 Actualités cette semaine
 
-### Kubernetes v1.37: Pod Certificates and Cluster Trust Bundles
+### Kubernetes v1.37: KubeletInUserNamespace (aka Rootless mode) Graduates to Beta
 **Source:** Kubernetes Blog
-**Résumé:** <h2 id="pod-certificate-cluster-trust-bundles-blog-post">Pod Certificate / Cluster Trust Bundles Blog Post<a class="td-heading-self-link" href="https://kubernetes.io/feed.xml#pod-certificate-cluster-t...
-**Lien:** https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/
+**Résumé:** <p>Kubernetes v1.37 promotes the <code>KubeletInUserNamespace</code> feature gate to beta.
+With this feature enabled, all of the node components (kubelet, CRI and OCI runtimes,
+CNI plugins, and kube-p...
+**Lien:** https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta/
 
 ---
 
-### Kubernetes v1.37: Metrics API graduates to stable
+### Kubernetes v1.37: DRA Updates
 **Source:** Kubernetes Blog
-**Résumé:** <p>Kubernetes v1.37 promotes the <code>metrics.k8s.io</code> API to stable (<code>v1</code>). This
-API provides CPU and memory usage for nodes and Pods, and is the API behind
-commands such as <code>ku...
-**Lien:** https://kubernetes.io/blog/2026/08/27/kubernetes-v1-37-metrics-api-ga/
+**Résumé:** <p>Kubernetes 1.37 is here and <a href="https://kubernetes.io/docs/concepts/scheduling-eviction/dynamic-resource-allocation/">Dynamic Resource Allocation (DRA)</a> keeps pushing past where it started!...
+**Lien:** https://kubernetes.io/blog/2026/09/03/kubernetes-v1-37-dra-updates/
 
 ---
 
-### Kubernetes v1.37: Garhwal
+### Kubernetes v1.37: Scale Workloads to Zero with HorizontalPodAutoscaler
 **Source:** Kubernetes Blog
-**Résumé:** <p><strong>Editors:</strong> Arsh Sharma, Christopher Tineo, Kirti Goyal, Sophia Ugochukwu, Swathi Rao, Troy Connor</p>
-<p>Similar to previous releases, the release of <a href="https://kubernetes.io/r...
-**Lien:** https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/
+**Résumé:** <p>Kubernetes v1.37 includes API support for horizontal autoscaling of workloads down
+to zero replicas. This feature is now Beta and enabled by default. A
+<a href="https://kubernetes.io/docs/concepts/...
+**Lien:** https://kubernetes.io/blog/2026/09/02/kubernetes-v1-37-hpa-scale-to-zero-beta/
 
 ---
 
-### Optimize EKS operations with agents: Reduce MTTR with AWS DevOps Agent and a Kubernetes Operator
+### Investigate DMS migration issues with AWS DevOps Agent
 **Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** Introduction Running workloads on Amazon Elastic Kubernetes Service (Amazon EKS) can involve managing failures like OOMKilled or IP exhaustion. Engineers must repeatedly collect pod logs, trace events...
-**Lien:** https://aws.amazon.com/blogs/devops/optimize-eks-operations-with-agents-reduce-mttr-with-aws-devops-agent-and-a-kubernetes-operator/
+**Résumé:** Migrating a production database is a high-risk operational event. AWS DMS is a cloud service that migrates relational databases, data warehouses, and other data stores into the AWS Cloud or between en...
+**Lien:** https://aws.amazon.com/blogs/devops/investigate-dms-migration-issues-with-aws-devops-agent/
 
 ---
 
-### Build your own continuous modernization pipeline with AWS Transform custom
+### Automating the Experimentation Lifecycle with Kiro, AWS DevOps Agent, and LaunchDarkly
 **Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** Introduction Development velocity has reached new heights with AI-driven development tools and practices. Organizations are generating code faster than ever before. But that speed carries risk. Resear...
-**Lien:** https://aws.amazon.com/blogs/devops/build-your-own-continuous-modernization-pipeline-with-aws-transform-custom/
+**Résumé:** Introduction Continuous improvement depends on experimentation. Teams know that the fastest path to better outcomes is to test changes against real user behavior, measure results, and iterate. In prac...
+**Lien:** https://aws.amazon.com/blogs/devops/automating-the-experimentation-lifecycle-with-kiro-aws-devops-agent-and-launchdarkly/
 
 ---
 
-### AI-driven software delivery with Kiro, AWS DevOps Agent and Bluebox by Dynatrace
+### Automate planned lifecycle upgrades with AWS DevOps Agent and Kiro
 **Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** This post was co-written with Michael Stephan, Senior Principal Product Manager, and Christian Kreuzberger, Principal Software Engineer, at Dynatrace. AI-driven software delivery changes how code gets...
-**Lien:** https://aws.amazon.com/blogs/devops/ai-driven-software-delivery-with-kiro-aws-devops-agent-and-bluebox-by-dynatrace/
+**Résumé:** AWS Health Planned Lifecycle Events signal when a managed service version is nearing end of standard support. Learn how to automate these upgrades end to end with AWS DevOps Agent and Kiro: detect the...
+**Lien:** https://aws.amazon.com/blogs/devops/automate-planned-lifecycle-upgrades-with-aws-devops-agent-and-kiro/
 
 ---
 

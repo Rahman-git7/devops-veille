@@ -1,29 +1,26 @@
-# DevOps Veille - 2026-09-21
+# DevOps Veille - 2026-09-28
 
 ## 📈 Actualités cette semaine
 
-### Kubernetes v1.37: Hardening Container Storage with Bind Mount Options and EmptyDir Permissions
+### Spotlight on SIG Apps
 **Source:** Kubernetes Blog
-**Résumé:** <p>Kubernetes v1.37 brings important storage security features: <code>emptyDir</code> permission modes and bind mount options. They help application programmers and security professionals implement ri...
-**Lien:** https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/
+**Résumé:** <p>As Kubernetes adoption has grown, the conversation has shifted beyond running containers to managing increasingly complex application lifecycles. Modern platforms support stateless web services, st...
+**Lien:** https://kubernetes.io/blog/2026/09/22/sig-apps-spotlight/
 
 ---
 
-### Kubernetes v1.37: Pod-Level Resource Managers graduated to Beta
+### Kubernetes v1.37: Tracking When a PersistentVolumeClaim Was Last Used (Beta)
 **Source:** Kubernetes Blog
-**Résumé:** <p>With the release of Kubernetes v1.37, the <strong>Pod-Level Resource Managers</strong>
-feature has graduated to <strong>Beta</strong> status (disabled by default)!</p>
-<p>First introduced as an Alp...
-**Lien:** https://kubernetes.io/blog/2026/09/15/kubernetes-v1-37-pod-level-resource-managers-beta/
+**Résumé:** <p>Kubernetes v1.37 promotes the <code>PersistentVolumeClaimUnusedSinceTime</code> feature gate to Beta (enabled by
+default). With this feature, the PersistentVolumeClaim (PVC) protection controller a...
+**Lien:** https://kubernetes.io/blog/2026/09/21/kubernetes-v1-37-pvc-last-used-time/
 
 ---
 
-### Kubernetes Changed Block Tracking API - Beta Differences
-**Source:** Kubernetes Blog
-**Résumé:** <p>Changed Block Tracking (CBT) support for CSI drivers
-<a href="https://kubernetes.io/blog/2025/09/25/csi-changed-block-tracking/">shipped as Alpha</a> in
-September 2025. With the March 2026 <code>v1...
-**Lien:** https://kubernetes.io/blog/2026/09/14/csi-changed-block-tracking-beta/
+### Audit trails for autonomous agents with AWS DevOps Agent
+**Source:** AWS DevOps & Developer Productivity Blog
+**Résumé:** AWS DevOps Agent investigates production incidents and proposes or applies fixes on your behalf, raising two questions for every operation and security review: what did the agent do, and how do you un...
+**Lien:** https://aws.amazon.com/blogs/devops/audit-trails-for-autonomous-agents-with-aws-devops-agent/
 
 ---
 

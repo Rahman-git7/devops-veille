@@ -1,20 +1,25 @@
-# DevOps Veille - 2026-11-02
+# DevOps Veille - 2026-11-16
 
 ## 📈 Actualités cette semaine
 
-### From Working Group to SIG Architecture: spotlight on AI Conformance
-**Source:** Kubernetes Blog
-**Résumé:** <p>In this SIG Architecture spotlight we talked with <a href="https://github.com/janetkuo">Janet Kuo</a> (Google)
-and <a href="https://github.com/terrytangyuan">Yuan Tang</a> (TensorScale AI) about th...
-**Lien:** https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/
+### A governed AI-driven development lifecycle for financial services with Kiro and AWS Frontier Agents
+**Source:** AWS DevOps & Developer Productivity Blog
+**Résumé:** A hands-on walkthrough of a governed, AI-driven development lifecycle for financial services that wires Kiro, AWS Security Agent, and AWS DevOps Agent into a shared GitHub-based pipeline, so every cha...
+**Lien:** https://aws.amazon.com/blogs/devops/a-governed-ai-driven-development-lifecycle-for-financial-services-with-kiro-and-aws-frontier-agents/
 
 ---
 
-### Announcing the Workload Conformance Working Group
-**Source:** Kubernetes Blog
-**Résumé:** <p>We are excited to announce that the Kubernetes community now has a <a href="https://www.kubernetes.dev/community/community-groups/wg/workload-conformance/">Workload Conformance Working Group</a>.
-T...
-**Lien:** https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/
+### PHP2Shell: Using AWS Transform to move legacy PHP onto a patched runtime
+**Source:** AWS DevOps & Developer Productivity Blog
+**Résumé:** Teams on PHP 8.1 or older can't patch the PHP2Shell vulnerabilities (CVE-2026-109618 and CVE-2026-109619) in place. Learn how to use AWS Transform continuous modernization to find legacy PHP, upgrade ...
+**Lien:** https://aws.amazon.com/blogs/devops/php2shell-using-aws-transform-to-move-legacy-php-onto-a-patched-runtime/
+
+---
+
+### AWS Graviton support for Java in AWS Transform continuous modernization
+**Source:** AWS DevOps & Developer Productivity Blog
+**Résumé:** AWS Transform continuous modernization now supports Graviton readiness assessment and remediation for Java. Learn how to analyze a Java repository for Graviton readiness, remediate the findings, valid...
+**Lien:** https://aws.amazon.com/blogs/devops/aws-graviton-support-for-java-in-aws-transform-continuous-modernization/
 
 ---
 

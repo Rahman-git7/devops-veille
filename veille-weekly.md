@@ -1,25 +1,34 @@
-# DevOps Veille - 2026-11-16
+# DevOps Veille - 2026-11-23
 
 ## 📈 Actualités cette semaine
 
-### A governed AI-driven development lifecycle for financial services with Kiro and AWS Frontier Agents
-**Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** A hands-on walkthrough of a governed, AI-driven development lifecycle for financial services that wires Kiro, AWS Security Agent, and AWS DevOps Agent into a shared GitHub-based pipeline, so every cha...
-**Lien:** https://aws.amazon.com/blogs/devops/a-governed-ai-driven-development-lifecycle-for-financial-services-with-kiro-and-aws-frontier-agents/
+### Kubernetes v1.38 Sneak Peek
+**Source:** Kubernetes Blog
+**Résumé:** <p>As we get closer to the release date for Kubernetes v1.38, the project develops and matures,
+features may be deprecated, removed, or replaced with better ones for the project's overall health.
+This...
+**Lien:** https://kubernetes.io/blog/2026/11/23/kubernetes-v1-38-sneak-peek/
 
 ---
 
-### PHP2Shell: Using AWS Transform to move legacy PHP onto a patched runtime
+### Announcing custom execution roles for AWS CloudFormation StackSets
 **Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** Teams on PHP 8.1 or older can't patch the PHP2Shell vulnerabilities (CVE-2026-109618 and CVE-2026-109619) in place. Learn how to use AWS Transform continuous modernization to find legacy PHP, upgrade ...
-**Lien:** https://aws.amazon.com/blogs/devops/php2shell-using-aws-transform-to-move-legacy-php-onto-a-patched-runtime/
+**Résumé:** AWS CloudFormation StackSets now supports custom execution role templates, so you can define the IAM role StackSets uses in each member account instead of the default AdministratorAccess role. Scope p...
+**Lien:** https://aws.amazon.com/blogs/devops/announcing-custom-execution-roles-for-aws-cloudformation-stacksets/
 
 ---
 
-### AWS Graviton support for Java in AWS Transform continuous modernization
+### Track AWS CloudFormation StackSets deployments with progress visibility
 **Source:** AWS DevOps & Developer Productivity Blog
-**Résumé:** AWS Transform continuous modernization now supports Graviton readiness assessment and remediation for Java. Learn how to analyze a Java repository for Graviton readiness, remediate the findings, valid...
-**Lien:** https://aws.amazon.com/blogs/devops/aws-graviton-support-for-java-in-aws-transform-continuous-modernization/
+**Résumé:** AWS CloudFormation StackSets now adds deployment progress visibility, a stage-by-stage view of where each stack set operation stands. See how much work is complete and which accounts and stack instanc...
+**Lien:** https://aws.amazon.com/blogs/devops/track-aws-cloudformation-stacksets-deployments-with-progress-visibility/
+
+---
+
+### What’s new in AWS Transform – continuous modernization for re:Invent 2026
+**Source:** AWS DevOps & Developer Productivity Blog
+**Résumé:** Ahead of re:Invent 2026, AWS Transform continuous modernization is faster to start, easier to act on, and easier to extend. A new AWS Health integration takes you from a planned lifecycle event straig...
+**Lien:** https://aws.amazon.com/blogs/devops/whats-new-in-aws-transform-continuous-modernization-for-reinvent-2026/
 
 ---
 
